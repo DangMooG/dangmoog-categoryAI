@@ -1,22 +1,43 @@
-## Fasttext-category-classification ##
+# Fasttext-category-classification #
 
-Fas
 
-### 1. Go to proejct dir ###
+## Run on Local Server ##
 
-  git clone https://github.com/DangMooG/dangmoog-categoryAI.git
-  cd dangmoog-categoryAI/fasttext
+### 1. Setup ###
+    # Project clone
+    git clone https://github.com/DangMooG/dangmoog-categoryAI.git
+    
+    # Go to directory
+    cd dangmoog-categoryAI/fasttext
+    
+    # Install requirements
+    pip install -r requirements.txt
 
-### 2. Execute main.py ###
+### 2. Move trained model to your directory
 
-  python main.py
+  - You can download pre-trained model here
+    <https://drive.google.com/drive/folders/1u-iqZDcNawoFSeAXzELw0KME-9m6y2zJ?usp=drive_link>
 
-### 3. Test on local server ###
+  - Move 'fasttext_v1.0.0.bin' to your directory 'dangmoog-categoryAI/fasttext/trained_model'
 
-  cd dangmoog-categoryAI/examples
-  python api_call.py 
+### 3. Execute main.py ###
 
-  or 
+    python main.py
 
-  Excecute nobebook cells on 'request_test.ipynb' 
+### 4. Test on local server ###
+
+    # Go to test directory
+    cd dangmoog-categoryAI/examples
+    
+    # Execute test
+    python api_call.py 
+
+  or Excecute nobebook cells on 'request_test.ipynb' 
+
+
+## Run on docker container ## 
+
+### 1. Pull Image in docker-hub ### 
+
+### 2. 
   
