@@ -1,7 +1,7 @@
 # Fasttext-category-classification #
 
 
-## Run on Local Server ##
+## I. Run on Local Server ##
 
 ### 1. Setup ###
     # Project clone
